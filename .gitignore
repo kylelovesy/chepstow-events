@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env.local
+.env.production
+.DS_Store
+*.log
+.vite
+coverage/
+.nyc_output/
+.cache/
+.parcel-cache/
+.next/
+out/
+build/
+.svelte-kit/
+package-lock.json
+yarn.lock
