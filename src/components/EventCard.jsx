@@ -6,7 +6,7 @@ import {
   Calendar, 
   MapPin, 
   Star, 
-  Pound, 
+  PoundSterling, 
   ExternalLink, 
   Edit, 
   Trash2,
@@ -99,7 +99,7 @@ export function EventCard({ event, onEdit, onDelete, showActions = true }) {
         {/* Cost */}
         {event.cost_text && (
           <div className="flex items-center gap-2">
-            <Pound className="h-4 w-4 text-green-600" />
+            <PoundSterling className="h-4 w-4 text-green-600" />
             <span className="text-sm text-gray-700">{event.cost_text}</span>
           </div>
         )}

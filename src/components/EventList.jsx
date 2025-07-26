@@ -11,7 +11,7 @@ import {
   Plus, 
   Calendar,
   Navigation,
-  Pound,
+  PoundSterling,
   Star,
   Filter
 } from 'lucide-react'
@@ -167,7 +167,7 @@ export function EventList({
                 onClick={() => handleSort('cost')}
                 className="flex items-center"
               >
-                <Pound className="h-4 w-4 mr-1" />
+                <PoundSterling className="h-4 w-4 mr-1" />
                 Cost
                 {getSortIcon('cost')}
               </Button>
